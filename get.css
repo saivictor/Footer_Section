@@ -1,0 +1,50 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+.main{
+    height: 100vh;
+    width: 100pvw;
+    background-image: url(./assest/get.jpg);
+    margin-left: 10px;
+    background-size: cover;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.main .sub1,.sub2,.sub3,.sub4{
+    width: 300px;
+    margin-top: 50px;
+   
+    /* border: 1px solid black; */
+    /* background-color: aqua; */
+}
+.p1{
+    width: 250px;
+    color: rgba(0, 0, 0, 0.632);
+    line-height:20px;
+}
+.in{
+    padding-left: 10px;
+    height: 25px;
+}
+.bu{
+    color: aliceblue;
+    border: none;
+    border-radius: 3px;
+    background-color: blueviolet;
+   width: 100px;
+    height: 30px;
+}
+.bu:hover{
+cursor: pointer;
+}
+.p2{
+    line-height: 40px;
+    color: rgba(0, 0, 0, 0.644)
+}
+.icc{
+    border:1px solid #556169;
+    color: #626e76;
+    border-radius: 100%;
+    padding: 10px;}
